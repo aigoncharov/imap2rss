@@ -1,11 +1,11 @@
 from pathlib import Path
 from quart import utils
-from telegram_to_rss.models import Feed, FeedEntry
+from imap2rss.models import Feed, FeedEntry
 from tortoise.query_utils import Prefetch
-from telegram_to_rss.config import base_url
-from telegram_to_rss.poll_telegram import parse_feed_entry_id
+from imap2rss.config import base_url
+from imap2rss.poll_telegram import parse_feed_entry_id
 import re
-from telegram_to_rss.client import telethon_dialog_id_to_tg_id
+from imap2rss.client import telethon_dialog_id_to_tg_id
 import xml.etree.ElementTree as ET
 import logging
 

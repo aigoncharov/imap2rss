@@ -29,5 +29,5 @@ jobs:
           context: .
           file: docker/Dockerfile
           push: true
-          tags: aigoncharov/telegram-to-rss:dev
+          tags: aigoncharov/imap2rss:dev
           platforms: linux/amd64,linux/arm64

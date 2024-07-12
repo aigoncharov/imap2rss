@@ -29,6 +29,6 @@ jobs:
           file: docker/Dockerfile
           push: true
           tags: |
-            aigoncharov/telegram-to-rss:latest
-            aigoncharov/telegram-to-rss:${{github.ref_name}}
+            aigoncharov/imap2rss:latest
+            aigoncharov/imap2rss:${{github.ref_name}}
           platforms: linux/amd64,linux/arm64

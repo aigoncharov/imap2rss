@@ -1,15 +1,15 @@
 services:
-  telegram-to-rss:
+  imap2rss:
     build:
       context: ../
       dockerfile: ./docker/Dockerfile
       tags:
-        - "telegram-to-rss:dev"
-    container_name: telegram-to-rss
+        - "imap2rss:dev"
+    container_name: imap2rss
     restart: always
     env_file: ../.env
     ports:
-      - 3042:3042
+      - 3043:3043
     volumes:
       - data:/data
 

@@ -1,5 +1,5 @@
-from telegram_to_rss.server import app
-from telegram_to_rss.config import bind
+from imap2rss.server import app
+from imap2rss.config import bind
 import asyncio
 from hypercorn.config import Config
 from hypercorn.asyncio import serve

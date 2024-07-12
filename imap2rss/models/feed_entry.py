@@ -4,7 +4,7 @@ from tortoise import fields
 from tortoise.signals import post_delete
 from typing import Type
 from anyio import Path
-from telegram_to_rss.config import static_path
+from imap2rss.config import static_path
 
 
 class FeedEntry(Model):

@@ -1,7 +1,7 @@
 services:
-  telegram-to-rss:
-    image: aigoncharov/telegram-to-rss:latest
-    container_name: telegram-to-rss
+  imap2rss:
+    image: aigoncharov/imap2rss:latest
+    container_name: imap2rss
     restart: always
     environment:
       - TG_API_ID=REPLACE_ME
@@ -9,7 +9,7 @@ services:
       - TG_PASSWORD=REPLACE_ME
       - BASE_URL=REPLACE_ME
     ports:
-      - 3042:3042
+      - 3043:3043
     volumes:
       - data:/data
 

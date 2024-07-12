@@ -1,5 +1,5 @@
-from telegram_to_rss.client import TelegramToRssClient, custom, types
-from telegram_to_rss.models import Feed, FeedEntry
+from imap2rss.client import TelegramToRssClient, custom, types
+from imap2rss.models import Feed, FeedEntry
 from tortoise.expressions import Q
 from tortoise.transactions import atomic
 from pathlib import Path

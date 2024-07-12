@@ -1,7 +1,7 @@
 from telethon import TelegramClient, types, errors, custom
-from telegram_to_rss.consts import TELEGRAM_NOTIFICATIONS_DIALOG_ID
+from imap2rss.consts import TELEGRAM_NOTIFICATIONS_DIALOG_ID
 from telethon.utils import resolve_id
-from telegram_to_rss.consts import MESSAGE_FETCH_HARD_LIMIT
+from imap2rss.consts import MESSAGE_FETCH_HARD_LIMIT
 import logging
 
 

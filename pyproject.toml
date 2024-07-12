@@ -1,11 +1,11 @@
 [tool.poetry]
-name = "telegram-to-rss"
-version = "0.2.2"
+name = "imap2rss"
+version = "0.1.0"
 description = ""
 authors = ["aigoncharov"]
 license = "MIT"
 readme = "README.md"
-packages = [{include = "telegram_to_rss"}]
+packages = [{include = "imap2rss"}]
 
 [tool.poetry.dependencies]
 python = "^3.12"
@@ -34,4 +34,4 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-telegram_to_rss = "telegram_to_rss:main"
+imap2rss = "imap2rss:main"

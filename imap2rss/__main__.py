@@ -1,4 +1,4 @@
-from telegram_to_rss import main
+from imap2rss import main
 
 
 if __name__ == "__main__":
